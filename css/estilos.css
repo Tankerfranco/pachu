@@ -45,14 +45,14 @@ body{
 .contenedor{
     display: grid;
     grid-template: 
-        "main"auto/
+        "main"1fr/
         auto;
 }
 
 .main {
     grid-area: main;
     display: flex;
-    flex-flow: column wrap;
+    flex-flow: column;
     justify-content: center;
     align-items: center;
 }
@@ -64,6 +64,7 @@ body{
 
 .coso {
     display: flex;
+    
     flex-direction: column;
     justify-content: center;
     align-items: center;
